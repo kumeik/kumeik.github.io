@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Ku me ik?</title>
+		<!-- Linkimi / Sources / Script -->
+		  <link rel="stylesheet" type="text/css" href="css/main.css">
+		  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">		
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<body ng-app="kuMeIk" ng-controller="kuMeIk">
+	
+	<div class="nav">
+		<h1> Ku me ik?</h1>
+	</div>
+
+	<div class="container">
+		<div class="card" ng-repeat="kategori in kategorite">
+			
+			<img src="http://i.imgur.com/NjV13Qb.gif" class="card-media">
+			<h2 class="card-title">
+				{{kategori.emri}}
+			</h2>
+			<p class="card-description">{{kategori.pershkrimi}}</p>
+			
+		</div>
+		
+		
+	</div>
+
+
+	</body>
+</html>

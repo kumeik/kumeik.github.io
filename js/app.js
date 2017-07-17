@@ -21,6 +21,69 @@ kuMeIk.controller('kuMeIk', function($scope) {
 		{rank: 5, emri: '', pershkrimi: '', foto: ''}
 	];
 
+	$scope.bare = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.snacks = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.lounges = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.clube = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.fastfoode = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.piceri = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.embelsira = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
+
+	$scope.hotele = [
+		{rank: 1, emri: 'La Voglia', pershkrimi: 'In the center of Tirana, with delicious dishes and spectacular atmosphere.', foto: 'img/restorante/lavoglia.png'},
+		{rank: 2, emri: 'Artigiano', pershkrimi: 'Abdyl Frasheri, Tirana, Albania 1000', foto: 'img/restorante/artigiano.jpg'},
+		{rank: 3, emri: 'Vita99', pershkrimi: 'Rruga Komuna e Parisit, pallatet 1Maj(perballe stadiumit Dinamo) , Tirana, Albania 1001', foto: 'img/restorante/vita99.jpg'},
+		{rank: 4, emri: '2 Oxhaket', pershkrimi: 'GREAT FOOD', foto: ''},
+		{rank: 5, emri: '', pershkrimi: '', foto: ''}
+	];
 
 });
 

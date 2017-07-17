@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Ku me ik?</title>
+		<!-- Linkimi / Sources / Script -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Prata" rel="stylesheet">
+	</head>
+
+	<body ng-app="kuMeIk" ng-controller="kuMeIk">
+
+<header>
+</header>
+
+	<div class="container">
+		<div class="card" ng-repeat="snack in snacks">
+				<img ng-src="{{snack.foto}}" class="card-media">
+				<a href="{{snack.link}}" class="card-title">
+						{{snack.emri}}
+				</a>
+				<p class="card-description">
+          {{snack.pershkrimi}}
+      </p>
+		</div>
+	</div>
+
+<footer>
+	<ul class="footer">
+		<li><a href="#">INFO</a></li>
+		<li><a href="#">bla</a></li>
+		<li><a href="#">blah</a></li>
+		<li><a href="#">Created by</a></li>
+	</ul>
+</footer>
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-76274451-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="js/app.js"></script>
+
+	</body>
+</html>

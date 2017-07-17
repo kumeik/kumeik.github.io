@@ -7,6 +7,7 @@ body {
 h1 {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
  header {
@@ -18,7 +19,7 @@ h1 {
   line-height:100px;
 
   text-align:center;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .container {
@@ -45,7 +46,11 @@ h1 {
 
 .container .card a {
   text-decoration: none;
+  font-weight:  bold;
   color: maroon;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .container .card a:hover {
@@ -54,6 +59,8 @@ h1 {
 
 .card .card-description {
   color: grey;
+  font-family: 'Prata', serif;
+  letter-spacing: 0;
 }
 
 
@@ -64,6 +71,8 @@ ul.footer {
   display: flex;
   justify-content: flex-end;
   height: 40px;
+  font-family: 'Prata', serif;
+  line-height: 16px;
 }
 
 .footer a {
@@ -74,9 +83,12 @@ ul.footer {
 }
 
 .footer a:hover {
-  background-color: #00796b;
+  background-color: ##009688; /* teal-darken-4 #004d40 */
   font-size: 17px;
+  transform: translateY(-2px);
 }
+
+
 
 
 
@@ -89,68 +101,5 @@ ul.footer {
     height: 100px;
   }
 
-
-}
-
-
-/*
-====================================================================================
-
- |||
- |||
- |||
- |||    ||||
- |||    ||||
- |||    ||||
- |||||||||||
-        ||||
-        ||||
-        ||||
-        ||||
-        ||||
-
-
-=====================================================================================
-
-
-
-@media (max-width:425px) {
-
-    body .container .card {
-      position: relative;
-      width: max-width;
-      height: 150px;
-      background-color: white;
-      border-radius: 2px;
-      margin-top: 10px;
-      margin-left: 0;
-      margin-right: 0;
-      box-shadow: 1px 1px 4px 0;
-    }
-
-    body .container .card img.card-media {
-      position: relative;
-      left: 0;
-      width: 30%;
-      height: 150px;
-    }
-
-
-    body .container .card .card-title {
-      position: relative;
-      top: -170px;
-      left: 33%;
-      font-size: 32px;
-      width: 150px;
-    }
-
-    body .container .card .card-description {
-      position: relative;
-      font-size: 14px;
-      top: -160px;
-      left: 33%;
-      color: grey;
-      width: 150px;
-    }
 
 }
